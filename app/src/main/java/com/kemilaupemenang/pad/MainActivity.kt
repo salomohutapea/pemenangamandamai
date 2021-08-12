@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import com.github.chrisbanes.photoview.PhotoView
 import com.google.android.material.card.MaterialCardView
 
@@ -22,6 +23,18 @@ class MainActivity : AppCompatActivity() {
         cardP3k.setOnClickListener {
             val intent = Intent(this, P3kActivity::class.java)
             startActivity(intent)
+        }
+        cardArtikel.setOnClickListener {
+            Toast.makeText(
+                this, "Fitur ini masih dalam tahap pengembangan!",
+                Toast.LENGTH_LONG
+            ).show()
+        }
+        cardPetaBencana.setOnClickListener {
+            Toast.makeText(
+                this, "Fitur ini masih dalam tahap pengembangan!",
+                Toast.LENGTH_LONG
+            ).show()
         }
     }
 }
