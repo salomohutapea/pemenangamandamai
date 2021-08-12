@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PAD - Pemenang Aman Damai</string>
+    <string name="logo_kemilau_pemenang">Logo Kemilau Pemenang</string>
+    <string name="pemenang_aman_damai">Pemenang Aman Damai</string>
+    <string name="logo_rumah_sakit">Logo Rumah Sakit</string>
+    <string name="p3k_dan_evakuasi">P3K dan Evakuasi</string>
+    <string name="artikel_bencana">Artikel Bencana</string>
+    <string name="peta_bencana">Peta Bencana</string>
+    <string name="back_arrow">Back arrow</string>
+    <string name="pertolongan_pertama_saat_bencana">Pertolongan Pertama Saat Bencana</string>
+    <string name="ketuk_dua_kali_pada_gambar_untuk_memperbesar">Ketuk dua kali pada gambar untuk memperbesar</string>
+    <string name="panduan_evakuasi_pasca_tsunami_di_masa_pandemi">Panduan Evakuasi Pasca Tsunami di Masa Pandemi</string>
+    <string name="pertolongan_pertama_pada_saat_bencana">Pertolongan Pertama pada Saat Bencana</string>
+    <string name="poster">Poster</string>
+</resources>
