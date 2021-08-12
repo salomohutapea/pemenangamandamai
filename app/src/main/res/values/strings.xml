@@ -12,4 +12,14 @@
     <string name="panduan_evakuasi_pasca_tsunami_di_masa_pandemi">Panduan Evakuasi Pasca Tsunami di Masa Pandemi</string>
     <string name="pertolongan_pertama_pada_saat_bencana">Pertolongan Pertama pada Saat Bencana</string>
     <string name="poster">Poster</string>
+    <string name="artikel_hse_health_safety_environment">Artikel HSE (Health, Safety, Environment)</string>
+    <string name="artikel_hse_1_name">Cara menangani orang pingsan mendadak</string>
+    <string name="artikel_hse_2_name">Cara membalut ibu jari yang terkilir</string>
+    <string name="artikel_hse_3_name">Cara memberi pertolongan pertama pada patah tulang</string>
+    <string name="artikel_hse_4_name">Cara mencegah kebakaran</string>
+    <string name="artikel_hse_5_name">Cara mengatasi kebakaran</string>
+    <string name="artikel_hse_6_name">Cara menggunakan berbagai jenis perban</string>
+    <string name="artikel_hse_7_name">Cara menghentikan pendarahan</string>
+    <string name="artikel_hse_8_name">Cara mengobati jari yang patah</string>
+    <string name="artikel_hse_9_name">Cara menolong korban tenggelam dengan benar</string>
 </resources>
