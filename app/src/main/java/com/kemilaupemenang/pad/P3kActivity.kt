@@ -3,9 +3,6 @@ package com.kemilaupemenang.pad
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.webkit.WebView
-import android.widget.ImageView
-import com.google.android.material.card.MaterialCardView
 import com.kemilaupemenang.pad.databinding.ActivityP3kBinding
 
 class P3kActivity : AppCompatActivity() {
@@ -35,47 +32,47 @@ class P3kActivity : AppCompatActivity() {
                 finish()
             }
             artikelP3k1.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_1.html")
                 startActivity(intent)
             }
             artikelP3k2.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_2.html")
                 startActivity(intent)
             }
             artikelP3k3.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_3.html")
                 startActivity(intent)
             }
             artikelP3k4.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_4.html")
                 startActivity(intent)
             }
             artikelP3k5.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_5.html")
                 startActivity(intent)
             }
             artikelP3k6.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_6.html")
                 startActivity(intent)
             }
             artikelP3k7.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_7.html")
                 startActivity(intent)
             }
             artikelP3k8.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_8.html")
                 startActivity(intent)
             }
             artikelP3k9.setOnClickListener {
-                val intent = Intent(this@P3kActivity, WebViewArtikelSHEActivity::class.java)
+                val intent = Intent(this@P3kActivity, WebViewActivity::class.java)
                 intent.putExtra("HTMLFILE", "artikel_she_9.html")
                 startActivity(intent)
             }

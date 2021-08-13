@@ -25,16 +25,30 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         cardArtikel.setOnClickListener {
-            Toast.makeText(
-                this, "Fitur ini masih dalam tahap pengembangan!",
-                Toast.LENGTH_LONG
-            ).show()
+            val intent = Intent(this, WebViewActivity::class.java)
+            intent.putExtra(
+                "LINK",
+                "https://visitpemenang.com/bangkit-pemenang/#artikel-bencana/"
+            )
+            startActivity(intent)
+
+//            Toast.makeText(
+//                this, "Artikel Pemenang Aman Damai",
+//                Toast.LENGTH_LONG
+//            ).show()
         }
         cardPetaBencana.setOnClickListener {
-            Toast.makeText(
-                this, "Fitur ini masih dalam tahap pengembangan!",
-                Toast.LENGTH_LONG
-            ).show()
+            val intent = Intent(this, WebViewActivity::class.java)
+            intent.putExtra(
+                "LINK",
+                "https://visitpemenang.com/bangkit-pemenang/#peta-rawan-bencana/"
+            )
+            startActivity(intent)
+
+//            Toast.makeText(
+//                this, "Artikel Pemenang Aman Damai",
+//                Toast.LENGTH_LONG
+//            ).show()
         }
     }
 }

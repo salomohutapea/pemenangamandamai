@@ -15,7 +15,7 @@
         android:theme="@style/Theme.PADPemenangAmanDamai"
         tools:targetApi="m">
         <activity
-            android:name=".WebViewArtikelSHEActivity"
+            android:name=".WebViewActivity"
             android:exported="true" />
         <activity
             android:name=".P3kPoster2Activity"
